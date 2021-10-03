@@ -1,0 +1,10 @@
+server:
+  name: my_net  # interface name
+  ip: 10.10.0.1  # server's ip address
+  subset: 24  # subnet size, e.g. 11.11.2.0 - 11.11.2.255
+  ip_external: 33.200.201.21  # public server address
+  port: 51830  # public server port
+
+hosts:
+  - {name: client01, ip: 10.10.0.2}  # client 01 name and ip address
+  - {name: client02, ip: 10.10.0.3}  # client 02 name and ip address
